@@ -1,0 +1,134 @@
+*,html ,body, .container{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5860A6;
+}
+
+.container {
+    width: 976px;
+    height: 517px;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+}
+
+.form {
+    width: 488px;
+    height: 517px;
+    background-color: white;
+    background-size: cover;
+    padding-left: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-sizing: border-box;
+}
+
+p {
+    padding-top: 90px;
+    font-family: inter, sans-serif;  
+    font-weight: 400px;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: inter, sans-serif;
+}
+
+.background {
+    width: 488px;
+    height: 571px;
+    
+}
+
+.username {
+    margin-top: 46px;
+}
+
+.password {
+    margin-top: 15px;
+}
+
+.form label {
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: inter, sans-serif;
+}
+
+.form input {
+    margin-top: 10px;
+    width: 388px;
+    height: 43px;
+    font-family: inter, sans-serif;
+    border-radius: 5px;
+}
+
+.gambar {
+    width: 488px;
+    height: 517px;
+    background-image: url(Rectangle\ 2.png);
+    background-position: 100%;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+button {
+    margin-top: 28px;
+    width: 388px;
+    height: 36px;
+    left: 282px;
+    top: 644px;
+    background: #5860A6;
+    border-radius: 5px;
+    border: none;
+}
+
+button h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 1050px) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    .background{
+        display: none;
+    }
+
+    .form {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 20px;
+    }
+}
+
+
+
+
+
+
+
+
